@@ -6,7 +6,7 @@ namespace Training.DTO
 {
     public class Products
     {
-        public string Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public int Merchant_id { get; set; }
         public double Price { get; set; }

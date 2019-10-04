@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Training.Data.Models
 {
-    public class Order
+    public class Orders
     {
         public Guid Id { get; set; }
         public Guid UserId { get; set; }
-        List<OrderProduct> OrderProducts { get; set; }
+        List<OrderProduct> OrderProduct { get; set; }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Training.Data.Models
 {
-    public class Product
+    public class Products
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

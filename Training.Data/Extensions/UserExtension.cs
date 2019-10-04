@@ -22,8 +22,7 @@ namespace Training.Data.Extensions
                 Id = Guid.Parse(u.Id),
                 Email = u.Email,
                 FullName = u.FullName,
-                Gender = u.Gender,
-
+                Gender = u.Gender
             };
         }
     }

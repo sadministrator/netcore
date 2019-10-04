@@ -13,8 +13,10 @@ namespace Training.Data
         { }
 
         public virtual DbSet<User> Users { get; set; }
-        public virtual DbSet<Product> Products { get; set; }
-        public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<Products> Products { get; set; }
+        public virtual DbSet<Orders> Orders { get; set; }
+        public virtual DbSet<OrderProduct> OrderProducts { get; set; }
+
 
     }
 }
