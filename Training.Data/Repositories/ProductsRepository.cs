@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-
-
+using Training.API.Contracts;
+using Training.Data.Extensions;
 
 namespace Training.Data.Repositories
 {
