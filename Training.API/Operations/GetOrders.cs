@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using Training.API.Contracts;
 
 namespace Training.API.Operations
 {
