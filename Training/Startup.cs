@@ -23,8 +23,10 @@ namespace Training
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connectionSQLServer = Configuration.GetConnectionString("sqlserver");
+
             services.AddDbContext<StoreContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("sqlserver")));
+                options.UseSqlServer(connectionSQLServer));
 
 
             ConfigureOperations(services);
